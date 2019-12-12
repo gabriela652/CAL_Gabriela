@@ -9,5 +9,5 @@ void ASW_vInit()
 void ASW_move(T_U8 speed,BOOL dir)
 {
     RTE_vSetMotorDir(dir);
-    RTE_vSetMotorSpeed(speed);
+    RTE_vSetMotorSpeed(speed);   
 }

@@ -13,6 +13,10 @@
 #define RTE_vInit HAL_vInit
 #define RTE_vSetMotorSpeed HAL_vSetMotorSpeed
 
+#define HAL_vSetDirLineFollower vSetDirLineFollower 
+#define HAL_vWriteLineFollower vWriteLineFollower 
+#define HAL_u8GetValueLineFollower u8GetValueLineFollower 
+
 
 #endif	/* RTE_H */
 
